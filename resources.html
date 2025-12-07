@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Resources | Special Arabic with Br. Moiez</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@600&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="nav-bar">
+				<div class="brand">
+					<span class="logo-mark" aria-hidden="true">ب</span>
+					<span class="site-title">Special Arabic</span>
+				</div>
+				<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+				<div class="nav-links">
+					<a class="nav-link" href="index.html">Home</a>
+					<a class="nav-link" href="class-assignments.html">Class & Assignments</a>
+					<a class="nav-link" href="resources.html">Resources</a>
+				</div>
+			</nav>
+		</header>
+
+		<main class="page">
+			<section class="page-header">
+				<h1>Resources</h1>
+				<p>Videos, worksheets, and links to help practice at home.</p>
+			</section>
+
+			<section class="section resource-controls">
+				<div class="search-bar">
+					<label class="sr-only" for="resource-search">Search resources</label>
+					<input id="resource-search" type="search" placeholder="Search by title, description, or tags…" aria-label="Search resources" />
+				</div>
+				<div id="tag-chips" class="tag-chips" aria-live="polite"></div>
+			</section>
+
+			<section class="section resource-grid-wrapper">
+				<div id="resource-status" class="status-message" role="alert"></div>
+				<div id="resource-grid" class="resource-grid"></div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>Special Arabic with Br. Moiez</p>
+			<p>For questions, please contact <a href="mailto:moiez.qamar@iscjwes.org">moiez.qamar@iscjwes.org</a></p>
+		</footer>
+
+		<script src="js/main.js"></script>
+		<script src="js/resources.js"></script>
+	</body>
+</html>

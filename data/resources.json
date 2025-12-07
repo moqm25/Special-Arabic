@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Letters and How to Pronounce them",
+		"url": "https://tajweed.us/lesson/letters/",
+		"description": "",
+		"tags": ["alphabet", "audio", "beginners", "letters"]
+	},
+	{
+		"title": "Tracing Worksheet: Alif to Tha",
+		"url": "https://example.com/tracing-alif-tha.pdf",
+		"description": "Printable tracing sheet for the letters Alif, Ba, Ta, and Tha.",
+		"tags": ["tracing", "writing", "letters", "worksheet"]
+	},
+	{
+		"title": "Short Vowels Practice",
+		"url": "https://example.com/short-vowels-practice",
+		"description": "Interactive practice for Fatha, Kasra, and Damma with simple words.",
+		"tags": ["vowels", "reading", "interactive", "beginners"]
+	},
+	{
+		"title": "Sun and Moon Letters Chart",
+		"url": "https://example.com/sun-moon-chart",
+		"description": "Colorful chart listing sun vs moon letters for quick review.",
+		"tags": ["chart", "reference", "letters"]
+	},
+	{
+		"title": "Parent Guide: Helping at Home",
+		"url": "https://example.com/parent-guide-arabic",
+		"description": "Quick tips for parents to support practice in 10 minutes a day.",
+		"tags": ["parents", "guide", "home-practice"]
+	}
+]

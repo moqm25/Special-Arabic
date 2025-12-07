@@ -1,0 +1,29 @@
+[
+	{
+		"class": false,
+		"date": "2025-11-30",
+		"class_name": "",
+		"covered_in_class": "Thanksgiving break - no WES.",
+		"notes_contents": [],
+		"homework": "",
+		"homework_due": ""
+	},
+	{
+		"class": true,
+		"date": "2025-12-07",
+		"class_name": "Intro to the Alphabet",
+		"covered_in_class": "We kicked off Special Arabic this week by doing a quick knowledge check of what students knew. <br>Next, we worked on the first 7 letters of the Arabic Alphabet (ا،ب،ت،ث،ج،ح،خ).",
+		"notes_contents": [
+			{
+				"label": "All the Letters",
+				"url": "./data/resources/2B_Arabic_Alphabet.pdf"
+			},
+			{
+				"label": "Letters and How to Pronounce them",
+				"url": "https://tajweed.us/lesson/letters/"
+			}
+		],
+		"homework": "./data/resources/Practice_letters.pdf",
+		"homework_due": "2025-12-14"
+	}
+]

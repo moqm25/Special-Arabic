@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Class & Assignments | Special Arabic with Br. Moiez</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@600&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="nav-bar">
+				<div class="brand">
+					<span class="logo-mark" aria-hidden="true">ب</span>
+					<span class="site-title">Special Arabic</span>
+				</div>
+				<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+				<div class="nav-links">
+					<a class="nav-link" href="index.html">Home</a>
+					<a class="nav-link" href="class-assignments.html">Class & Assignments</a>
+					<a class="nav-link" href="resources.html">Resources</a>
+				</div>
+			</nav>
+		</header>
+
+		<main class="page">
+			<section class="page-header">
+				<h1>Class & Assignments</h1>
+				<p>See what we did in class and any homework for the week.</p>
+			</section>
+
+			<section id="summary" class="section summary-card" aria-live="polite">
+				<div class="section-header">
+					<h2>Latest Class Highlight</h2>
+					<p>The newest class with homework and notes appears here (scroll down to find more information).</p>
+				</div>
+				<hr />
+				<div class="summary-content" id="summary-content">
+					<p class="muted">Loading class info…</p>
+				</div>
+			</section>
+
+			<section class="section filters">
+				<label for="class-filter" class="filter-label">Show:</label>
+				<select id="class-filter" class="filter-select" aria-label="Filter classes">
+					<option value="all">All</option>
+					<option value="classes">Only Classes</option>
+					<option value="no-school">Only No School</option>
+				</select>
+			</section>
+
+			<section class="section class-list" aria-live="polite">
+				<div class="section-header">
+					<h2>Class Timeline</h2>
+					<p>Newest sessions appear first.</p>
+				</div>
+				<div id="status-message" class="status-message" role="alert"></div>
+				<div id="class-list"></div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>Special Arabic with Br. Moiez</p>
+			<p>For questions, please contact <a href="mailto:moiez.qamar@iscjwes.org">moiez.qamar@iscjwes.org</a></p>
+		</footer>
+
+		<script src="js/main.js"></script>
+		<script src="js/class-assignments.js"></script>
+	</body>
+</html>
