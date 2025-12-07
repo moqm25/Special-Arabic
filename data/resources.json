@@ -1,32 +1,27 @@
 [
 	{
-		"title": "Letters and How to Pronounce them",
+		"title": "Arabic Letters & Pronunciation (Audio Guide)",
 		"url": "https://tajweed.us/lesson/letters/",
-		"description": "",
-		"tags": ["alphabet", "audio", "beginners", "letters"]
+		"description": "Step-by-step Arabic letter pronunciation with clear audio for each letter. Ideal for beginners learning correct makhārij (articulation points).",
+		"tags": ["alphabet", "audio", "beginners", "letters", "tajweed"]
 	},
 	{
-		"title": "Tracing Worksheet: Alif to Tha",
-		"url": "https://example.com/tracing-alif-tha.pdf",
-		"description": "Printable tracing sheet for the letters Alif, Ba, Ta, and Tha.",
-		"tags": ["tracing", "writing", "letters", "worksheet"]
+		"title": "Arabic Letters with Fathah & Pronunciation (Audio Guide)",
+		"url": "https://tajweed.us/lesson/fatha/",
+		"description": "Step-by-step Arabic letter pronunciation with clear audio for each letter. Ideal for beginners learning correct makhārij (articulation points).",
+		"tags": ["alphabet", "audio", "fathah", "letters", "tajweed"]
 	},
 	{
-		"title": "Short Vowels Practice",
-		"url": "https://example.com/short-vowels-practice",
-		"description": "Interactive practice for Fatha, Kasra, and Damma with simple words.",
-		"tags": ["vowels", "reading", "interactive", "beginners"]
+		"title": "Tracing Worksheet: Alif to Ya (Printable PDF)",
+		"url": "https://myresourcestation.weebly.com/uploads/1/1/9/5/119543891/aabic_alphabet_tracing_book.pdf",
+		"description": "Printable tracing worksheet covering the entire Arabic alphabet from Alif (ا) to Ya (ي). Includes dotted letters and stroke direction arrows for practice.",
+		"tags": ["tracing", "writing", "letters", "worksheet", "pdf"]
 	},
+
 	{
-		"title": "Sun and Moon Letters Chart",
-		"url": "https://example.com/sun-moon-chart",
-		"description": "Colorful chart listing sun vs moon letters for quick review.",
-		"tags": ["chart", "reference", "letters"]
-	},
-	{
-		"title": "Parent Guide: Helping at Home",
-		"url": "https://example.com/parent-guide-arabic",
-		"description": "Quick tips for parents to support practice in 10 minutes a day.",
-		"tags": ["parents", "guide", "home-practice"]
+		"title": "Parent's Guide to Supporting Arabic Learning at Home",
+		"url": "https://kalima-lessons.com/parents-guide-to-supporting-arabic-learning-at-home/",
+		"description": "Simple daily practice plan for parents with games, repetition strategies, and motivation tips for young learners.",
+		"tags": ["parents", "guide", "home-practice", "support"]
 	}
 ]
