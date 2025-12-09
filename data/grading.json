@@ -1,0 +1,25 @@
+{
+	"weights": {
+		"attendance": 0.15,
+		"homework": 0.2,
+		"quiz": 0.25,
+		"test": 0.4
+	},
+	"scale": [
+		{
+			"min": 0.85,
+			"label": "E",
+			"description": "Excellent / Exceeds Expectations"
+		},
+		{
+			"min": 0.65,
+			"label": "M",
+			"description": "Meets Expectations"
+		},
+		{
+			"min": 0,
+			"label": "P",
+			"description": "Poor / Needs Improvement / Progressing"
+		}
+	]
+}

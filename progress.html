@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Progress | Special Arabic with Br. Moiez</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@600&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<nav class="nav-bar">
+				<div class="brand">
+					<span class="logo-mark" aria-hidden="true">ب</span>
+					<span class="site-title">2nd Grade Special Arabic</span>
+				</div>
+				<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+				<div class="nav-links">
+					<a class="nav-link" href="index.html">Home</a>
+					<a class="nav-link" href="class-assignments.html">Class & Assignments</a>
+					<a class="nav-link" href="progress.html">Progress</a>
+					<a class="nav-link" href="resources.html">Resources</a>
+				</div>
+			</nav>
+		</header>
+
+		<main class="page">
+			<section class="page-header">
+				<h1>Student Progress</h1>
+				<p>Parents can view their child’s attendance and homework record here.</p>
+			</section>
+
+			<!-- Lookup form -->
+			<section class="section">
+				<div class="card">
+					<h2>Find Your Child</h2>
+					<p>Enter your child’s last name and date of birth exactly as on school records.</p>
+
+					<form id="progress-form" class="progress-form">
+						<div class="form-row">
+							<label for="last-name">Child's Last Name</label>
+							<input id="last-name" name="last-name" type="text" required autocomplete="family-name" />
+						</div>
+
+						<div class="form-row form-row-inline">
+							<div>
+								<label for="dob-month">Month</label>
+								<select id="dob-month" name="dob-month" required>
+									<option value="">Month</option>
+									<option value="1">January</option>
+									<option value="2">February</option>
+									<option value="3">March</option>
+									<option value="4">April</option>
+									<option value="5">May</option>
+									<option value="6">June</option>
+									<option value="7">July</option>
+									<option value="8">August</option>
+									<option value="9">September</option>
+									<option value="10">October</option>
+									<option value="11">November</option>
+									<option value="12">December</option>
+								</select>
+							</div>
+							<div>
+								<label for="dob-day">Day</label>
+								<input id="dob-day" name="dob-day" type="number" min="1" max="31" required placeholder="DD" />
+							</div>
+							<div>
+								<label for="dob-year">Year</label>
+								<input id="dob-year" name="dob-year" type="number" min="2008" max="2025" required placeholder="YYYY" />
+							</div>
+						</div>
+
+						<button type="submit" class="btn-primary">View Progress</button>
+					</form>
+
+					<p id="progress-status" class="status-message" role="alert"></p>
+				</div>
+			</section>
+
+			<!-- Results -->
+			<section id="progress-result" class="section hidden" aria-live="polite">
+				<div class="section-header">
+					<h2 id="student-heading">Progress for …</h2>
+					<p id="student-subheading"></p>
+					<p id="session-timer" class="session-timer muted"></p>
+				</div>
+
+				<!-- Overall summary -->
+				<div id="progress-summary" class="card"></div>
+
+				<!-- Category breakdown -->
+				<section class="section">
+					<h3>Grade Breakdown</h3>
+					<div class="card">
+						<div class="table-wrapper">
+							<table id="category-table" class="grade-table">
+								<thead>
+									<tr>
+										<th>Category</th>
+										<th>Average</th>
+										<th>Weight</th>
+										<th>Contribution</th>
+									</tr>
+								</thead>
+								<tbody></tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+
+				<!-- Detailed record -->
+				<section class="section">
+					<div class="section-header section-header-inline">
+						<h3>Detailed Record</h3>
+						<div class="record-filters">
+							<label for="record-filter-type" class="filter-label">Show:</label>
+							<select id="record-filter-type" class="filter-select">
+								<option value="all">All entries</option>
+								<option value="attendance">Attendance only</option>
+								<option value="homework">Homework only</option>
+								<option value="quiz">Quizzes only</option>
+								<option value="test">Tests only</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="table-wrapper">
+							<table id="progress-table">
+								<thead>
+									<tr>
+										<th>Date</th>
+										<th>Type</th>
+										<th>Title</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody></tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+
+				<!-- Comments -->
+				<section class="section">
+					<h3>Teacher Comments</h3>
+					<div id="comments-card" class="card"></div>
+				</section>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>Special Arabic with Br. Moiez</p>
+			<p>
+				For questions, please contact
+				<u><a href="mailto:moiez.qamar@iscjwes.org">moiez.qamar@iscjwes.org</a></u>
+			</p>
+		</footer>
+
+		<script src="js/main.js"></script>
+		<script src="js/progress.js"></script>
+	</body>
+</html>
